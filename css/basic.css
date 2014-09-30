@@ -56,7 +56,7 @@ table {
 /*
     Background: #eae7d2
     Background Header, Menu: #51473d
-    Container border: #e7e4d5
+    Border: #cecab9
     Text: #817a7c
 */
 
@@ -65,8 +65,23 @@ table {
     background-color: #eae7d2;
     color: #817a7c;
     margin: 0 auto 0 auto;
-    border: 1px solid #e7e4d5;
+    border: 1px solid #cecab9;
 }
 #topbar, #menu {
+    width: 100%;
     background-color: #51473d;
+    display: block;
+}
+#maincontent {
+    width: 369px;
+    display: inline-block;
+    border-right: 1px dashed #cecab9;
+}
+#subcontent {
+    width: 225px;
+    display: inline-block;
+}
+#bottomcontent {
+    width: 100%;
+    display: inline-block;
 }
