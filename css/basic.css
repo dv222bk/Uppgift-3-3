@@ -119,6 +119,7 @@ table {
 }
 #menu li a:hover, #menu li a:focus {
     background-color: #9c9084;
+    color: #eae7d2;
 }
 #maincontent {
     width: 369px;
