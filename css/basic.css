@@ -61,7 +61,7 @@ table {
 */
 h1 {
     font: 2.5em "Times New Roman", serif;
-    margin: 0.25em 0;
+    margin-bottom: 0.25em;
 }
 p {
     margin-top: 1em;
@@ -134,24 +134,23 @@ img {
 }
 #maincontent {
     width: 348px;
-    padding: 0.75em 0 0.5em 0.75em;
-    margin-right: 0.8em;
+    margin-top: 1.5em;
+    padding: 0 0.8em 0.5em 0.75em;
     font-size: 0.8em;
     line-height: 1.6em;
+    border-right: 1px dashed #cecab9;
     float: left;
 }
 #subcontent {
     width: 210px;
     font-size: 0.55em;
     line-height: 2.4em;
-    border-left: 1px dashed #cecab9;
-    padding-left: 1em;
-    margin-top: 2em;
+    margin: 1em 0 0 1em;
     float: left;
 }
 #subcontent h1 {
     font-size: 1.9em;
-    margin: 0.5em 0 1em 0;
+    margin: 1em 0 1.2em 0;
     color: #51473d;
 }
 #subcontent h2 {
