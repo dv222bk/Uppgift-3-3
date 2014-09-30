@@ -103,7 +103,7 @@ img {
     overflow: hidden;
 }
 #menu ul {
-    margin: 0.25em 0 0 0.75em;
+    margin: 0.3em 0 0 0.75em;
 }
 #menu li {
     overflow: hidden;
@@ -134,18 +134,39 @@ img {
 }
 #maincontent {
     width: 348px;
-    padding: 0.75em 0 0.75em 0.75em;
+    padding: 0.75em 0 0.5em 0.75em;
+    margin-right: 0.8em;
     font-size: 0.8em;
     line-height: 1.6em;
-    display: inline-block;
+    float: left;
 }
 #subcontent {
-    width: 225px;
-    display: inline-block;
+    width: 210px;
+    font-size: 0.55em;
+    line-height: 2.4em;
     border-left: 1px dashed #cecab9;
-    padding-left: 0.5em;
+    padding-left: 1em;
+    margin-top: 2em;
+    float: left;
+}
+#subcontent h1 {
+    font-size: 1.9em;
+    margin: 0.5em 0 1em 0;
+    color: #51473d;
+}
+#subcontent h2 {
+    font: 1.6em "Times New Roman", serif;
+    margin-top: 2em;
+    color: #51473d;
+}
+#subcontent a {
+    color: #51473d;
+    font-size: 1.5em;
 }
 #bottomcontent {
     width: 100%;
     display: inline-block;
+    font-size: 0.6em;
+    margin: 0 0 2em 0.75em;
+    font-style: italic;
 }
