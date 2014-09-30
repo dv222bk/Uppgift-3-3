@@ -57,13 +57,24 @@ table {
     Background: #eae7d2
     Background Header, Menu: #51473d
     Border: #cecab9
-    Text: #817a7c
+    Text: #797066
 */
+h1 {
+    font: 2.5em "Times New Roman", serif;
+    margin: 0.25em 0;
+}
+p {
+    margin-top: 1em;
+}
+img {
+    float: left;
+    margin: 0.5em 0.4em 0em 0;
+}
 #container {
     width: 600px;
     overflow: hidden;
     background-color: #eae7d2;
-    color: #817a7c;
+    color: #797066;
     font-family: Verdana, sans-serif;
     margin: 0.5em auto 0 auto;
     border: 1px solid #cecab9;
@@ -115,20 +126,24 @@ table {
 }
 #menu .active a {
     background-color: #eae7d2;
-    color: #817a7c;
+    color: #797066;
 }
 #menu li a:hover, #menu li a:focus {
     background-color: #9c9084;
     color: #eae7d2;
 }
 #maincontent {
-    width: 369px;
+    width: 348px;
+    padding: 0.75em 0 0.75em 0.75em;
+    font-size: 0.8em;
+    line-height: 1.6em;
     display: inline-block;
-    border-right: 1px dashed #cecab9;
 }
 #subcontent {
     width: 225px;
     display: inline-block;
+    border-left: 1px dashed #cecab9;
+    padding-left: 0.5em;
 }
 #bottomcontent {
     width: 100%;
